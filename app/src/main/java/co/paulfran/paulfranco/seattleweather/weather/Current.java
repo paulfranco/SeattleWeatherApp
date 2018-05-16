@@ -1,14 +1,16 @@
-package co.paulfran.paulfranco.seattleweather;
+package co.paulfran.paulfranco.seattleweather.weather;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 
+import co.paulfran.paulfranco.seattleweather.R;
+
 /**
  * Created by paulfranco on 3/24/18.
  */
 
-public class CurrentWeather {
+public class Current {
     private String mIcon;
     private long mTime;
     private double mTemperature;
